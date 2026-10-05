@@ -1,4 +1,14 @@
-﻿Console.WriteLine("What was the round trip in miles? ");
+﻿/*
+* Name: Chase Ries
+* Course: CSCI 1250, Section 001
+* Assignment: Lab 02, Trip Calculator
+* Date: October 5, 2026
+* Description: Calculates the fuel, food, and work hours behind one road trip
+
+/*
+
+
+Console.WriteLine("What was the round trip in miles? ");
 int milesForTheTrip = Convert.ToInt32(Console.ReadLine());
 
 Console.Write ("What is the miles per gallon of the car you are using? ");
@@ -51,7 +61,7 @@ double hourlyRate = Convert.ToDouble(Console.ReadLine());
 
 //do the math
 
-const double taxRate = 18;
+const double taxRate = 0.18;
 
 double grossPay = hourlyWorked * hourlyRate;
 
@@ -69,9 +79,9 @@ double tripTotal = fuelCost + pizzaCost;
 
 double costPerPerson = tripTotal/howManyPeopleGoing;
 
-double takeHomepayPerHour = takeHomepay/hourlyRate;
+double takeHomepayPerHour = takeHomepay/takeHomepayPerHour;
 
-double hoursMustWorked = costPerPerson/takeHomepayPerHour;
+double hoursMustWorked = costPerPerson/hourlyRate;
 
 Console.WriteLine("tripTotal " + tripTotal.ToString());
 Console.WriteLine("Cost Per person " + costPerPerson.ToString());
